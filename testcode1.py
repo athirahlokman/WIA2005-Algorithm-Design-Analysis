@@ -1,3 +1,4 @@
+import plotly.express as px
 f = open("Canada.txt", "r")
 wordlist = []
 for x in f:
@@ -47,10 +48,13 @@ for x in f:
  
 negativewords = []
 for w in filtered:
-    if w.lower() in negativelist:
+    if w.upper() in negativelist:
         negativewords.append(w.lower())
  
 negfreq = []
 for w in negativewords:
     negfreq.append(negativewords.count(w))
 print("\nNegative\n" + str(list(zip(negativewords, negfreq))))
+
+fig = px.bar(x=["positive", "negative", "stop"], y=[len(positivewords), len(negativewords), stopcount], title="Qatar wordcount")
+fig.write_html('qatar_hist.html', auto_open=True)
