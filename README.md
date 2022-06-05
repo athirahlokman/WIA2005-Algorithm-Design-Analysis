@@ -8,23 +8,23 @@ You have been given a sample dataset that contains the location of Moonbucks sto
 
 Problem 1: Moonbucks is always looking at the possibilities of expanding their business by adding the number of stores around the world. To do this, they need to analyse local economic and social situations to ensure maximum profits. 
 Select any five (5) countries from the list.
-Find five (5) articles from online news websites that have published stories related to each country’s local economy and social situation.
-Do an analysis of positive, negative, and neutral words of the article to give insights of the local economic and social situation.
-Suggestion: Sometimes a webpage must be converted to the text version before it can be done. 
-You may refer to this website to extract words from a website - https://www.textise.net/. 
-You may refer to this website on how to count word frequency in a website- https://programminghistorian.org/lessons/counting-frequencies. 
-You can also filter stop words from the text you found. Stop words are such as conjunctions and prepositions. You may refer to this link: https://www.ranks.nl/stopwords . 
-You can find the list of English positive/negative words here - http://positivewordsresearch.com/list-of-positive-words/ ,
-http://positivewordsresearch.com/list-of-negative-words/. 
-Then, select or design the appropriate string-matching algorithm for the analysis. 
+ 1. Find five (5) articles from online news websites that have published stories related to each country’s local economy and social situation.
+ 2. Do an analysis of positive, negative, and neutral words of the article to give insights of the local economic and social situation.
+    Suggestion: Sometimes a webpage must be converted to the text version before it can be done. 
+    You may refer to this website to extract words from a website - https://www.textise.net/. 
+    You may refer to this website on how to count word frequency in a website- https://programminghistorian.org/lessons/counting-frequencies. 
+    You can also filter stop words from the text you found. Stop words are such as conjunctions and prepositions. You may refer to this link:       https://www.ranks.nl/stopwords . 
+    You can find the list of English positive/negative words here - http://positivewordsresearch.com/list-of-positive-words/ ,
+    http://positivewordsresearch.com/list-of-negative-words/. 
+    Then, select or design the appropriate string-matching algorithm for the analysis. 
 
-Plot line/scatter/histogram graphs related to the word count using Plotly (Word count, stop words)
-Suggestion: You may refer this link on how to install Plotly and how to use the API keys
- http://www.instructables.com/id/Plotly-with-Python/ 
-https://plot.ly/python/getting-started/ 
+3. Plot line/scatter/histogram graphs related to the word count using Plotly (Word count, stop words)
+    Suggestion: You may refer this link on how to install Plotly and how to use the API keys
+    http://www.instructables.com/id/Plotly-with-Python/ 
+    https://plot.ly/python/getting-started/ 
 
-Plot any related graphs to show useful information about the analysis.
-Give an algorithmic conclusion regarding the sentiment of those articles
+4. Plot any related graphs to show useful information about the analysis.
+5. Give an algorithmic conclusion regarding the sentiment of those articles
 Suggestion: If there are more positive words, conclude that the article is giving positive sentiment, if there are more negative words, conclude that the article is giving negative sentiment. You may try to conclude in different perspectives such as whether the list of positive and negative words above is accurate to be used in the context of the article you extracted the text by designing your own algorithm for making conclusions. Based on the conclusion, you may rank which country is worth having branch expansion.
 
 
