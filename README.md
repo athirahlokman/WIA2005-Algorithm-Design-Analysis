@@ -42,6 +42,7 @@ Suggestion: You can select (randomly) more than six (6) stores in the country an
 
 
 Problem 3: 
+
 The expansion of business in a country is not only determined by the local economic and social situation of the country, but the running cost for delivering logistics needs to be considered as well. And usually, a new store location will be determined by how much is spent for delivery. Based on the ranking of countries and total journey made for deliveries of each country, determine the final ranking of countries where new stores can be located.
 3. Calculate the probability of a country that has a good local economic and social situation with the lowest optimal delivery. Then, write the summary, ranking from the most recommended countries to the least recommended countries to have an expansion.
 
