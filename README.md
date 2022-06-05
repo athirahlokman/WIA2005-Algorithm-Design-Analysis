@@ -13,18 +13,18 @@ Select any five (5) countries from the list.
 
  1. Find five (5) articles from online news websites that have published stories related to each country’s local economy and social situation.
  2. Do an analysis of positive, negative, and neutral words of the article to give insights of the local economic and social situation.
-    Suggestion: Sometimes a webpage must be converted to the text version before it can be done. 
-    You may refer to this website to extract words from a website - https://www.textise.net/. 
-    You may refer to this website on how to count word frequency in a website- https://programminghistorian.org/lessons/counting-frequencies. 
-    You can also filter stop words from the text you found. Stop words are such as conjunctions and prepositions. You may refer to this link:       https://www.ranks.nl/stopwords . 
-    You can find the list of English positive/negative words here - http://positivewordsresearch.com/list-of-positive-words/ ,
+    - Suggestion: Sometimes a webpage must be converted to the text version before it can be done. 
+    - You may refer to this website to extract words from a website - https://www.textise.net/. 
+    - You may refer to this website on how to count word frequency in a website- https://programminghistorian.org/lessons/counting-frequencies. 
+    - You can also filter stop words from the text you found. Stop words are such as conjunctions and prepositions. You may refer to this link:       https://www.ranks.nl/stopwords . 
+    - You can find the list of English positive/negative words here - http://positivewordsresearch.com/list-of-positive-words/ ,
     http://positivewordsresearch.com/list-of-negative-words/. 
-    Then, select or design the appropriate string-matching algorithm for the analysis. 
+    - Then, select or design the appropriate string-matching algorithm for the analysis. 
 
 3. Plot line/scatter/histogram graphs related to the word count using Plotly (Word count, stop words)
-    Suggestion: You may refer this link on how to install Plotly and how to use the API keys
-    http://www.instructables.com/id/Plotly-with-Python/ 
-    https://plot.ly/python/getting-started/ 
+    - Suggestion: You may refer this link on how to install Plotly and how to use the API keys
+    - http://www.instructables.com/id/Plotly-with-Python/ 
+    - https://plot.ly/python/getting-started/ 
 
 4. Plot any related graphs to show useful information about the analysis.
 5. Give an algorithmic conclusion regarding the sentiment of those articles
