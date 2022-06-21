@@ -40,7 +40,7 @@ class Trie:
 # Read text file imported from website
 
 def readArticle(originalText):
-    with open('Canada.txt', 'r', encoding="utf-8") as file:
+    with open('Canada(2).txt', 'r', encoding="utf-8") as file:
         for line in file: 
             for word in line.split():
                 originalText.append(word)
@@ -94,7 +94,7 @@ readStop(stop_words)
 
 
 # To display the article
-articleText = refined(originalText) #maybe boleh buang
+articleText = refined(originalText)
 print("\nList", articleText)
 
 trieStop = Trie()
