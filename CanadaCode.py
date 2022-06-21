@@ -40,31 +40,31 @@ class Trie:
 # Read text file imported from website
 
 def readArticle(originalText):
-    with open('Canada.txt', 'r', encoding="utf-8") as file:
+    with open('Canada.txt', 'r', encoding='utf-8') as file:
         for line in file: 
             for word in line.split():
                 originalText.append(word)
 
 def readPositive(positive_words):
-    with open('positive.txt', 'r', encoding="utf-8") as file:
+    with open('positive.txt', 'r', encoding='utf-8') as file:
         for line in file:
             for word in line.split(',  '):
                 positive_words.append(word)
 
 def readNegative(negative_words):
-    with open('negative.txt', 'r', encoding="utf-8") as file:
+    with open('negative.txt', 'r', encoding='utf-8') as file:
         for line in file:
             for word in line.split(',    '):
                 negative_words.append(word)
 
 def readNeutral(neutral_words):
-    with open('neutral.txt', 'r', encoding="utf-8") as file:
+    with open('neutral.txt', 'r', encoding='utf-8') as file:
         for line in file:
             for word in line.split(', '):
                 neutral_words.append(word)
 
 def readStop(stop_words):
-    with open('stop.txt', 'r', encoding="utf-8") as file:
+    with open('stop.txt', 'r', encoding='utf-8') as file:
         for line in file:
             for word in line.split('\n'):
                 stop_words.append(word)
@@ -157,6 +157,7 @@ print("Neutral: ", neutralMatch, "\n")
 print("Positive Word: ", len(positiveMatch))
 print("Negative Word: ", len(negativeMatch))
 print("Neutral Word: ", len(neutralMatch))
+print("Sentiment Score: ", round((len(positiveMatch) - len(negativeMatch)) / (len(neutralMatch) + len(negativeMatch)+len(positiveMatch)) * 100, 2))
 
 
 a = [len(positiveMatch)]
@@ -166,3 +167,6 @@ c = [len(neutralMatch)]
 number_count = [a,b,c]
 type_word = ["Positive", "Negative", "Neutral"]
 country_name = ["Canada"]
+
+
+

@@ -157,6 +157,7 @@ print("Neutral: ", neutralMatch, "\n")
 print("Positive Word: ", len(positiveMatch))
 print("Negative Word: ", len(negativeMatch))
 print("Neutral Word: ", len(neutralMatch))
+print("Sentiment Score: ", round((len(positiveMatch) - len(negativeMatch)) / (len(neutralMatch) + len(negativeMatch)+len(positiveMatch)) * 100, 2))
 
 
 a = [len(positiveMatch)]
