@@ -168,5 +168,8 @@ number_count = [a,b,c]
 type_word = ["Positive", "Negative", "Neutral"]
 country_name = ["Malaysia"]
 
+fig = px.bar(x=["Positive", "Negative", "Neutral"], y=[len(positiveMatch), len(negativeMatch), len(neutralMatch)], title="Malaysia Bar Plot")
+fig.write_html('Malaysia_bar.html', auto_open=True)
+
 
 
