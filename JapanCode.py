@@ -146,17 +146,20 @@ for i in range(len(extractedArticle)):
     elif trieNeutral.search(extractedArticle[i].lower()):   #search word from extracted article in the neutral TRIE
         neutralMatch.append(extractedArticle[i])
 
+# calculate sentiment score
+sentiment_score = round(((len(positiveMatch) - len(negativeMatch)) / (len(neutralMatch) + len(negativeMatch) + len(positiveMatch))) * 100 , 2)
 
 print("\nSentence: ", extractedArticle, "\n")
 print("Positive: ", positiveMatch, "\n")
 print("Negative: ", negativeMatch, "\n")
 print("Neutral: ", neutralMatch, "\n")
+print("Sentiment Score: ", sentiment_score)
 
 # Count Word
 print("Positive Word: ", len(positiveMatch))
 print("Negative Word: ", len(negativeMatch))
 print("Neutral Word: ", len(neutralMatch))
-print("Sentiment Score: ", round((len(positiveMatch) - len(negativeMatch)) / (len(neutralMatch) + len(negativeMatch)+len(positiveMatch)) * 100, 2))
+print("Sentiment Score: ", sentiment_score)
 
 
 a = [len(positiveMatch)]
